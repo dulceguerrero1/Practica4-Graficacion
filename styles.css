@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tarjeta{
+    background: rgb(232, 245, 245);
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input, select, button{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+canvas{
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    margin: 10px 0;
+}

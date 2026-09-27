@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tarjeta">
+        <h2>Componentes de una interfaz</h2>
+        <select id="modelo">
+            <option value="RGB">Modelo RGB</option>
+            <option value="CMY">Modelo CMY</option>
+            <option value="HSL">Modelo HSL</option>
+        </select> 
+        <input type="range" id="c1" min="0" max="360" value="210">
+        <input type="range" id="c2" min="0" max="100" value="90">
+        <input type="range" id="c3" min="0" max="100" value="50">
+        <p id="txtColor">hsl(210, 90%, 50%)</p>
+
+        <canvas id="cv" width="100" height="100"></canvas>
+        
+        <button onclick="exportar('png')">Exportar en formato PNG</button>
+        <button onclick="exportar('jpeg')">Exportar en formato JPG</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
